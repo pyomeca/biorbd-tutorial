@@ -2,7 +2,7 @@ channels:
 - conda-forge
 - default
 dependencies:
-- biorbd >=1.8.7
-- bioviz >=2.1.7
+- biorbd
+- bioviz
 - matplotlib
 - numpy
