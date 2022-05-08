@@ -4,7 +4,7 @@ segment TRUNK
 	translations yz
 	rotations x
 	mesh 0 0 0
-	mesh 0 0 0.55
+	mesh 0 0 0.72
 endsegment
 marker PELVIS
 	parent TRUNK
@@ -12,25 +12,25 @@ marker PELVIS
 endmarker
 marker SHOULDER
 	parent TRUNK
-	position 0 0 0.37
+	position 0 0 0.53
 endmarker
-marker TOP_HEAD
+marker EAR_HEAD
 	parent TRUNK
-	position 0 0 0.55
+	position 0 0 0.72
 endmarker
 
 
 
 segment ARM
 	parent TRUNK
-	RT 0 0 0 xyz 0 0 0.37
+	RT 0 0 0 xyz 0 0 0.53
 	rotations x
 	mesh 0 0 0
-	mesh 0 0 -0.41
+	mesh 0 0 -0.61
 endsegment
 marker HAND
 	parent ARM
-	position 0 0 -0.41
+	position 0 0 -0.61
 endmarker
 
 
@@ -39,39 +39,39 @@ segment THIGH
 	parent TRUNK
 	rotations x
 	mesh 0 0 0
-	mesh 0 0 -0.3
+	mesh 0 0 -0.42
 endsegment
 marker KNEE
 	parent THIGH
-	position 0 0 -0.3
+	position 0 0 -0.42
 endmarker
 
 
 
 segment SHANK
 	parent THIGH
-	RT 0 0 0 xyz 0 0 -0.3
+	RT 0 0 0 xyz 0 0 -0.42
 	rotations x
 	mesh 0 0 0
-	mesh 0 0 -0.3
+	mesh 0 0 -0.43
 endsegment
 marker ANKLE
 	parent SHANK
-	position 0 0 -0.3
+	position 0 0 -0.43
 endmarker
 
 
 
 segment FOOT
 	parent SHANK
-	RT 0 0 0 xyz 0 0 -0.3
+	RT 0 0 0 xyz 0 0 -0.43
 	rotations x
 	mesh 0 0 0
-	mesh 0 0.14 0
+	mesh 0 0.18 0
 endsegment
 marker TOE
 	parent FOOT
-	position 0 0.14 0
+	position 0 0.18 0
 endmarker
 
 
