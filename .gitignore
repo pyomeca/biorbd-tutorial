@@ -99,7 +99,7 @@ examples/sandbox
 *.bo
 *.bob
 *.ogv
-
+*.bioMod
 
 # Remove ACADOS compilation folder
 c_generated_code
