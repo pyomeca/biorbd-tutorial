@@ -1,0 +1,14 @@
+
+Séparer le fichier de création en kin et dyn (et mus?)
+Ajouter N et Mqddot dans dynamics
+
+Faire un modèle à 1 dof (model = biorbd.Model("models/SimpleBody.bioMod")  # model/SimpleUpperLimb.bioMod)
+Ajouter un fichier de forward dynamics
+	Intégration en trapèze/RK4/RK45
+	À la main: 
+		Fonction de contrainte : Avoir une position à la fin 
+		Fonction coût : Intégrale des tau
+2 muscles : Anta-/a-goniste
+
+Faire un gif de bioviz
+
